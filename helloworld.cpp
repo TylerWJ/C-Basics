@@ -363,7 +363,7 @@ int main() {
     // stack memory gets freed after the scope is completed
     // heap memory can only be freed manually; therefore, values stored on the stack are like global variables
 
-    // alocating memory on the stack is like one CPU instruction
+    // allocating memory on the stack is like one CPU instruction
     // allocating memory on the heap can be very expensive because the computer has to search existing memory for a free slot. If there isn't, more memory is needed and this is even more expensive
 
     int speed = 75;
